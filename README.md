@@ -1,4 +1,14 @@
 # ***Url shortener- website***
+An URL shortener is a type of software service that allows you to use short URLs which redirect to the original URL. The origin of this type of service is to make the URL more manageable and easy to share and remember.It is used primarily to shorten deep links, which by their nature are often long. This project seeks to make one with the following tools. We are going to be using [Vue.js](https://vuejs.org/) for the front-end and [Node-js](https://nodejs.org) for the back-end.
+
+## Contributors
+| Name                       | GitHub                                     | Rol                  |
+| -------------------------- | -------------------------------------      | ------------------   |
+| Juliana Rojas Naranjo      | [ayurojasn](https://github.com/ayurojasn)  | Manager  & Full-stack developer            |
+| Nelson Alejandro Mosquera  | [monotera](https://github.com/monotera)    | Full-stack developer |
+| Sebastian Guarnizo Campos  | [sebastian0912](https://github.com/sebastian0912)    | Full-stack developer |
+| Luisa Lorena Parra         | [parraluisa](https://github.com/parraluisa)    | Full-stack developer |
+
 
 ## Pre requirements
 You must have npm and vue installed
