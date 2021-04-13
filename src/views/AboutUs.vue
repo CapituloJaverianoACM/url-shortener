@@ -1,15 +1,18 @@
 <template>
   <v-main>
+    <Header />
     <AboutUsInfo class="width" />
     <AboutUsTeam class="team width" />
   </v-main>
 </template>
 
 <script>
+import Header from "../components/general/Header.vue";
 import AboutUsInfo from "../components/aboutUs/AboutUsInfo";
 import AboutUsTeam from "../components/aboutUs/AboutUsTeam";
 export default {
   components: {
+    Header,
     AboutUsInfo,
     AboutUsTeam,
   },
