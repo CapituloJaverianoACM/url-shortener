@@ -1,5 +1,17 @@
 <template>
   <div class="support">
-    <h1>Support</h1>
+     <Header/>
   </div>
 </template>
+
+<script>
+import Header from "../components/general/Header.vue";
+//import Footer from "../components/general/Footer";
+
+export default {
+  components: {
+    Header,
+   // Footer,
+  },
+};
+</script>
