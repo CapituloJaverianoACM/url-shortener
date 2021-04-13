@@ -37,7 +37,5 @@ p{
     font-family: $montserratMedium-font;
 }
 
-.button{
-    font-family: $montserratMedium-font !important;
-}
+
 </style>
