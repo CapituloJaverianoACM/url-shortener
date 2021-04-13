@@ -41,6 +41,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+  background-color: #FFFF ;
 }
 
 nav {

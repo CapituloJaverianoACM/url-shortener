@@ -1,18 +1,21 @@
 <template>
-  <div class="home">
-    <Header />
-    <!-- <Footer/> -->
-  </div>
+  <v-main>
+    <Header/>
+    <Home/>
+     <!-- <Footer/> -->
+  </v-main>
 </template>
 
 <script>
 import Header from "../components/general/Header.vue";
+import Home from "../components/home/Home.vue";
 //import Footer from "../components/general/Footer";
 
 export default {
   components: {
     Header,
-    // Footer,
+    Home,
+   // Footer,
   },
 };
 </script>
