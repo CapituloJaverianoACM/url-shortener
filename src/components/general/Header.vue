@@ -1,12 +1,11 @@
 <template>
-
- <header>
+  <header>
     <nav>
-        <div>
-         <img src="../../assets/imgs/logo.svg" height="40" width="250"/>
-        </div>
+      <div>
+        <img src="../../assets/imgs/logo.svg" height="40" width="250" />
+      </div>
 
-       <ul>
+      <ul>
         <li>
           <router-link class="link" to="/">Home</router-link>
         </li>
@@ -21,58 +20,51 @@
         </li>
       </ul>
     </nav>
- </header>
-
+  </header>
 </template>
 
-<script>
-</script>
+<script></script>
 
-<style scoped lang = "scss">
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+<style scoped lang="scss">
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-img{
-    margin-top: 15px;
-    margin-right: 480px;
-    
+img {
+  margin-top: 15px;
+  margin-right: 480px;
 }
 
-header{
-   position: fixed;
-   width: 100%;
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
-nav{
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: $montserratMedium-font;
+
+  ul {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    font-family: $montserratMedium-font;
-
-    ul{
-    display:flex;
-    justify-content: space-around;
     width: 30%;
-    list-style:none;  
+    list-style: none;
 
-    
-     .link{
-        text-decoration: none;
-        font-size: 14px;   
-        color: $acm-color;
-        }
-    
-     .link:hover{
-        color: $acm-color;
-        }
-
+    .link {
+      text-decoration: none;
+      font-size: 14px;
+      color: $acm-color;
     }
 
+    .link:hover {
+      color: $acm-color;
+    }
+  }
 }
-
 </style>

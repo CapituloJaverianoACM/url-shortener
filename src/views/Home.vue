@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <Header/>
-     <!-- <Footer/> -->
+    <Header />
+    <!-- <Footer/> -->
   </div>
 </template>
 
@@ -12,10 +12,9 @@ import Header from "../components/general/Header.vue";
 export default {
   components: {
     Header,
-   // Footer,
+    // Footer,
   },
 };
 </script>
 
-<style scoped lang = "scss" >
-</style>
+<style scoped lang="scss"></style>
