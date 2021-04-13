@@ -1,7 +1,20 @@
 <template>
-  <h1>Home</h1>
+  <div class="home">
+    <Header />
+    <!-- <Footer/> -->
+  </div>
 </template>
 
 <script>
-export default {};
+import Header from "../components/general/Header.vue";
+//import Footer from "../components/general/Footer";
+
+export default {
+  components: {
+    Header,
+    // Footer,
+  },
+};
 </script>
+
+<style scoped lang="scss"></style>

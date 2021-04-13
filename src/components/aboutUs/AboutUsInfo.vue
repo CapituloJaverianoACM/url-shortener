@@ -2,17 +2,17 @@
   <section class="phoenix-info-section">
     <div class="section">
       <div class="info-section">
-        <h2>¿Quiénes somos?</h2>
+        <h2>What is ACM?</h2>
         <p>
-          PhoenixWear es una plataforma web que busca darle una segunda
-          oportunidad a prendas de alto nivel que han recibido pocos usos, de
-          esta forma conectamos a compradores y vendedores en un sitio seguro y
-          moderno que facilita el flujo de ropa. Esta plataforma busca
-          garantizar seguridad a sus usuarios, con esto en mente se acomoda a
-          métodos de pago flexibles, canales de comunicación, atención vía
-          soporte y un conjunto de políticas de usuario que garantizan la idea
-          principal de la página. PhoenixWear quiere centrarse en un público
-          seleccionado, específicamente ropa para mujer de calidad superior.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
         </p>
       </div>
       <img src="../../assets/img/aboutUs.svg" height="417" width="500" />
@@ -20,7 +20,7 @@
     <div class="section reverse">
       <img src="../../assets/img/mision.svg" height="367" width="500" />
       <div class="info-section">
-        <h2>Misión</h2>
+        <h2>Mision</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -33,7 +33,7 @@
     </div>
     <div class="section">
       <div class="info-section">
-        <h2>Visión</h2>
+        <h2>Vision</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

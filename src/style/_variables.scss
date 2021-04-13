@@ -1,14 +1,29 @@
-@font-face {
-    font-family: "fontMontserratSemiBold";
-    src: url("~@/assets/fonts/Montserrat-SemiBold.ttf");
-}
-
-@font-face {
-    font-family: "fontMontserratBold";
-    src: url("~@/assets/fonts/Montserrat-Bold.ttf");
-}
-
-@font-face {
-    font-family: "fontMontserratRegular";
-    src: url("~@/assets/fonts/Montserrat-Regular.ttf");
-}
+$breakpoint-desktopLarge: 2500px;
+$breakpoint-desktop: 1024px;
+$breakpoint-mobile: 320px;
+$breakpoint-tablet: 769px;
+$breakpoint-columns: 578px;
+$breakpoint-desktopSmall: 975px;
+//Fonts
+$montserratSemiBold-font: "fontMontserratSemiBold",
+sans-serif;
+$montserratRegular-font: "fontMontserratRegular",
+sans-serif;
+$montserratBold-font: "fontMontserratBold",
+sans-serif;
+$montserratMedium-font: "fontMontserratMedium",
+sans-serif;
+$comfortaaLight-font: "fontComfortaaLight",
+sans-serif;
+$comfortaaSemiBold-font: "fontComfortaaSemiBold",
+sans-serif;
+$comfortaaBold-font: "fontComfortaaBold",
+sans-serif;
+$comfortaaRegular-font: "fontComfortaaRegular",
+sans-serif;
+$comfortaaMedium-font: "fontComfortaaMedium",
+sans-serif;
+$comfortaaLight-font: "fontComfortaaLight",
+sans-serif;
+//Colors
+$acm-color: #0D91CF;

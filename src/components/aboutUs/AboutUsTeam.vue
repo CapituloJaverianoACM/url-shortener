@@ -1,37 +1,39 @@
 <template>
   <section>
-    <h2 class="border-gradient">Nuestro equipo</h2>
+    <h2 class="border-gradient">OUR DEV TEAM</h2>
     <div class="team-section" v-if="windowWidth > 769">
-      <MemberCard
-        v-for="n in 5"
-        :key="n"
-        :name="name[n - 1]"
-        :info="info"
-        :color="color[n - 1]"
-      />
+      <a v-for="n in 6" :key="n" :href="repos[n - 1]"
+        ><MemberCard
+          :name="name[n - 1]"
+          :info="info"
+          :color="color[n - 1]"
+          class="memeber-card"
+      /></a>
     </div>
-    <v-card class="card-section" v-else elevation="24">
-      <v-carousel
-        :continuous="false"
-        :cycle="false"
-        :show-arrows="true"
-        delimiter-icon="mdi-minus"
-        height="550"
-      >
-        <v-carousel-item v-for="n in 5" :key="n">
-          <v-sheet light color="card_bg" height="95%">
-            <v-row align="center" justify="center">
-              <MemberCard
+
+    <v-carousel
+      v-else
+      :continuous="false"
+      :cycle="false"
+      :show-arrows="true"
+      hide-delimiters
+      height="550"
+      light
+    >
+      <v-carousel-item v-for="n in 6" :key="n">
+        <v-sheet light color="#FFFFFF" height="95%">
+          <v-row align="center" justify="center">
+            <a :href="repos[n - 1]"
+              ><MemberCard
                 :name="name[n - 1]"
                 :info="info"
                 :color="color[n - 1]"
                 class="memeber-card"
-              />
-            </v-row>
-          </v-sheet>
-        </v-carousel-item>
-      </v-carousel>
-    </v-card>
+            /></a>
+          </v-row>
+        </v-sheet>
+      </v-carousel-item>
+    </v-carousel>
   </section>
 </template>
 
@@ -47,9 +49,18 @@ export default {
       name: [
         "Nelson Mosquera",
         "Juliana Rojas",
-        "Nelson Mosquera",
-        "Juliana Rojas",
-        "Nelson Mosquera",
+        "Sebastian Guarnizo",
+        "Luisa Parra",
+        "Luis Vera",
+        "ACM Team",
+      ],
+      repos: [
+        "https://github.com/monotera",
+        "https://github.com/ayurojasn",
+        "https://github.com/sebastian0912",
+        "https://github.com/parraluisa",
+        "http://acm.capitulojaveriano.com/miembros",
+        "http://acm.capitulojaveriano.com/miembros",
       ],
       color: ["#81d8f3", "#81F38C", "#8E66FF", "#FA8888", "#8AEDDB", "#EB801E"],
       info:
@@ -72,26 +83,35 @@ export default {
 
 <style scoped lang="scss">
 section {
+  align-items: center;
   display: flex;
   flex-flow: column;
-  align-items: center;
 }
 .card-section {
   margin: 1rem 2rem;
 }
 h2 {
-  font-family: $montserratSemiBold-font;
   border-bottom: 10px solid;
   border-image-slice: 1;
   border-width: 2px;
-  margin-bottom: 5rem;
   font-size: 1.5rem;
+  font-family: $montserratSemiBold-font;
+  margin-bottom: 5rem;
+
   @media screen and (max-width: $breakpoint-tablet) {
     margin-bottom: 1rem;
   }
 }
+
+a {
+  color: black !important;
+  text-decoration: none;
+}
+
 .memeber-card {
-  margin: 4rem 1.2rem;
+  @media screen and (max-width: $breakpoint-tablet) {
+    margin: 4rem 1.2rem;
+  }
 }
 .border-gradient {
   border-image-source: linear-gradient(
