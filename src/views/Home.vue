@@ -1,9 +1,16 @@
 <template>
+<<<<<<< HEAD
   <v-main>
     <Header/>
     <Home/>
      <!-- <Footer/> -->
   </v-main>
+=======
+  <div class="home">
+    <Header />
+    <!-- <Footer/> -->
+  </div>
+>>>>>>> e624f7735802cfdb44cfd51f92383229469d594d
 </template>
 
 <script>
@@ -14,11 +21,14 @@ import Home from "../components/home/Home.vue";
 export default {
   components: {
     Header,
+<<<<<<< HEAD
     Home,
    // Footer,
+=======
+    // Footer,
+>>>>>>> e624f7735802cfdb44cfd51f92383229469d594d
   },
 };
 </script>
 
-<style scoped lang = "scss" >
-</style>
+<style scoped lang="scss"></style>
