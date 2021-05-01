@@ -1,8 +1,12 @@
 <template>
-  <div>Footer</div>
+ <div></div>
 </template>
 
 <script>
 </script>
 
-<style></style>
+<style scoped lang="scss">
+
+
+</style>
+  

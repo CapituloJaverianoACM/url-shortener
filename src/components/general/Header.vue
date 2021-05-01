@@ -45,6 +45,7 @@ img{
 header{
    position: fixed;
    width: 100%;
+   background-color: #FFFF;;
 }
 
 nav{

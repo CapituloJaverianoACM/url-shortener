@@ -33,7 +33,7 @@ const router = new VueRouter({
   index: "/default.html",
   mode: "history",
   base: process.env.BASE_URL,
-  routes
+  routes,  
 })
 
 export default router
