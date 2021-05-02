@@ -1,32 +1,32 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-import LearnMore from '../views/LearnMore.vue'
-import Support from '../views/Support.vue'
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "../views/Home.vue";
+import About from "../views/AboutUs.vue";
+import LearnMore from "../views/LearnMore.vue";
+import Support from "../views/Support.vue";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [{
-  path: "/",
-  name: "Home",
-  component: Home,
-  },
-  {
-    path: "/aboutUs",
-    name: "AboutUs",
-    component: About,
-  },
-  {
-    path: "/learnMore",
-    name: "LearnMore",
-    component: LearnMore,
-  },
-  {
-    path: "/support",
-    name: "Support",
-    component: Support,
-  },
+        path: "/",
+        name: "Home",
+        component: Home,
+    },
+    {
+        path: "/aboutUs",
+        name: "AboutUs",
+        component: About,
+    },
+    {
+        path: "/learnMore",
+        name: "LearnMore",
+        component: LearnMore,
+    },
+    {
+        path: "/support",
+        name: "Support",
+        component: Support,
+    },
 ];
 
 const router = new VueRouter({
@@ -36,4 +36,4 @@ const router = new VueRouter({
   routes,  
 })
 
-export default router
+export default router;
