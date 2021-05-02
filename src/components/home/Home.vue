@@ -46,14 +46,8 @@ export default {
                 name: 'https://acm.puj/3qJZtCP',
                 date: '20/04/2021'
             },
-            {
-                name: 'https://acm.puj/21JZtCP',
-                date: '04/09/2021'
-            },  
-            {
-                name: 'https://acm.puj/21JZtCP',
-                date: '04/09/2021'
-            },  
+            
+           
         ],
     }),
 

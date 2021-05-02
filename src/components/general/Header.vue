@@ -45,10 +45,12 @@ img{
 header{
    position: fixed;
    width: 100%;
-   background-color: #FFFF;;
+   background-color: #FFFF;
+   z-index: 1;
 }
 
 nav{
+  
     display: flex;
     justify-content: space-around;
     align-items: center;
