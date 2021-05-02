@@ -37,19 +37,20 @@ img {
   margin-right: 480px;
 }
 
-header {
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-  background-color: #FFFF ;
+header{
+   position: fixed;
+   width: 100%;
+   background-color: #FFFF;
+   z-index: 1;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  font-family: $montserratMedium-font;
+nav{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: $montserratMedium-font;
 
   ul {
     display: flex;

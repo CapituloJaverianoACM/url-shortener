@@ -2,20 +2,20 @@
   <v-main>
     <Header/>
     <Home/>
-     <!-- <Footer/> -->
+    <Footer/>
   </v-main>
 </template>
 
 <script>
 import Header from "../components/general/Header.vue";
 import Home from "../components/home/Home.vue";
-//import Footer from "../components/general/Footer";
+import Footer from "../components/general/Footer";
 
 export default {
   components: {
     Header,
     Home,
-   // Footer,
+    Footer,
   },
 };
 </script>

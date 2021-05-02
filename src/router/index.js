@@ -30,10 +30,10 @@ const routes = [{
 ];
 
 const router = new VueRouter({
-    index: "/default.html",
-    mode: "history",
-    base: process.env.BASE_URL,
-    routes,
-});
+  index: "/default.html",
+  mode: "history",
+  base: process.env.BASE_URL,
+  routes,  
+})
 
 export default router;
