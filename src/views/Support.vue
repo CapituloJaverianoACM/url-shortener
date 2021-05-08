@@ -1,17 +1,19 @@
 <template>
-  <div class="support">
+  <v-main class="support">
      <Header/>
-  </div>
+          <Support/>
+
+  </v-main>
 </template>
 
 <script>
 import Header from "../components/general/Header.vue";
-//import Footer from "../components/general/Footer";
+import Support from "../components/support/Support.vue";
 
 export default {
   components: {
     Header,
-   // Footer,
+    Support,
   },
 };
 </script>
