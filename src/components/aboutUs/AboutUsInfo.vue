@@ -1,5 +1,5 @@
 <template>
-  <section class="phoenix-info-section">
+  <section class="acm-info-section">
     <div class="section">
       <div class="info-section">
         <h2>What is ACM?</h2>
