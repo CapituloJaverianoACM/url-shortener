@@ -47,20 +47,20 @@ export default {
     return {
       windowWidth: 0,
       name: [
-        "Nelson Mosquera",
+        "ACM Team",
         "Juliana Rojas",
+        "Nelson Mosquera",
         "Sebastian Guarnizo",
         "Luisa Parra",
         "Luis Vera",
-        "ACM Team",
       ],
       repos: [
-        "https://github.com/monotera",
+        "http://acm.capitulojaveriano.com/miembros",
         "https://github.com/ayurojasn",
+        "https://github.com/monotera",
         "https://github.com/sebastian0912",
         "https://github.com/parraluisa",
-        "http://acm.capitulojaveriano.com/miembros",
-        "http://acm.capitulojaveriano.com/miembros",
+        "https://github.com/Vera-Luis",
       ],
       color: ["#81d8f3", "#81F38C", "#8E66FF", "#FA8888", "#8AEDDB", "#EB801E"],
       info:
