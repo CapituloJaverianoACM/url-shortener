@@ -32,6 +32,9 @@ If you want to have a view of the project with a graphical interface, you can in
 * sass-loader
 * vue-router
 * vuex
+* roboto-fontface
+* vue2-smooth-scroll
+* vuetify
 
 ## DevDependencies
 
