@@ -129,11 +129,22 @@ export default {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 44px) {
+
   .contenedor{
     padding-right: 2%;
     padding-left: 2%;
   }
+
+ .main2{
+    width: 100%;
+    padding: 0;
+  }
+  .caja2{
+     width: 100%;
+     justify-content:center
+  }
+
   .main{
     width: 100%;
     padding: 0;
@@ -143,13 +154,7 @@ export default {
      justify-content:center
   }
 
-  .main2{
-    width: 100%;
-    padding: 0;
-  }
-  .caja2{
-     width: 100%;
-  }
+ 
 
   .imagenes{   
     width: 70%;  
