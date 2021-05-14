@@ -111,13 +111,13 @@ p{
 .main{
   width: 50%;  
   float:left; 
-   
+  background-color: aqua; 
 }
 
 .caja{
   width: 50%;
   float: right;
-  
+  background-color: mediumpurple;
 }
 
 .titulo{
