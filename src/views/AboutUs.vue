@@ -3,6 +3,7 @@
     <Header />
     <AboutUsInfo class="width" />
     <AboutUsTeam class="team width" />
+    <Footer/>
   </v-main>
 </template>
 
@@ -10,11 +11,13 @@
 import Header from "../components/general/Header.vue";
 import AboutUsInfo from "../components/aboutUs/AboutUsInfo";
 import AboutUsTeam from "../components/aboutUs/AboutUsTeam";
+import Footer from "../components/general/Footer";
 export default {
   components: {
     Header,
     AboutUsInfo,
     AboutUsTeam,
+    Footer,
   },
 };
 </script>
