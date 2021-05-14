@@ -129,7 +129,7 @@ export default {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 44px) {
+@media screen and (max-width: 1040px) {
 
   .contenedor{
     padding-right: 2%;
