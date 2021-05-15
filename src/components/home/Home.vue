@@ -46,6 +46,14 @@ export default {
                 name: 'https://acm.puj/3qJZtCP',
                 date: '20/04/2021'
             },
+            {
+                name: 'https://acm.puj/103AtCP',
+                date: '20/04/2021'
+            },
+            {
+                name: 'https://acm.puj/5FTJZtCP',
+                date: '20/04/2021'
+            },
             
            
         ],
@@ -59,7 +67,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 
 .body {
     background-image: url("../../assets/imgs/gradient.svg");
@@ -67,6 +75,7 @@ export default {
     background-attachment: fixed;
     margin-top: 20px;
     background-position: bottom;
+    padding-bottom: 100px;
 
 }
 
@@ -119,7 +128,8 @@ h2 {
 }
 
 #shortIt {
-    margin: 90px 90px 0 90px;
+    margin: 0px 90px 0 90px;
+    padding-top: 90px;
 }
 
 .field {
