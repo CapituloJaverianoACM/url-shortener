@@ -5,7 +5,6 @@ An URL shortener is a type of software service that allows you to use short URLs
 | Name                       | GitHub                                     | Rol                  |
 | -------------------------- | -------------------------------------      | ------------------   |
 | Juliana Rojas Naranjo      | [ayurojasn](https://github.com/ayurojasn)  | Manager  & Full-stack developer            |
-| Nelson Alejandro Mosquera  | [monotera](https://github.com/monotera)    | Full-stack developer |
 | Sebastian Guarnizo Campos  | [sebastian0912](https://github.com/sebastian0912)    | Full-stack developer |
 | Luisa Lorena Parra         | [parraluisa](https://github.com/parraluisa)    | Full-stack developer |
 
@@ -58,7 +57,3 @@ If you have tasks to complete, please follow these steps:
 2. Complete your task.
 3. Run `npm run serve` open `http://localhost:8080` and test your component's task. Test it with multiple browsers.
 4. Create the PR.
-
-## Verify ticket
-
-Once your PR is approved and merged, make sure your changes are available at 
