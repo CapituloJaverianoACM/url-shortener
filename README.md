@@ -7,6 +7,7 @@ An URL shortener is a type of software service that allows you to use short URLs
 | Juliana Rojas Naranjo      | [ayurojasn](https://github.com/ayurojasn)  | Manager  & Full-stack developer            |
 | Sebastian Guarnizo Campos  | [sebastian0912](https://github.com/sebastian0912)    | Full-stack developer |
 | Luisa Lorena Parra         | [parraluisa](https://github.com/parraluisa)    | Full-stack developer |
+| Nelson Mosquera            | [monotera](https://github.com/monotera)    | Full-stack developer (aboutUs section)|
 
 
 ## Pre requirements
