@@ -5,7 +5,6 @@
       <a v-for="n in 6" :key="n" :href="repos[n - 1]"
         ><MemberCard
           :name="name[n - 1]"
-          :info="info"
           :color="color[n - 1]"
           class="memeber-card"
       /></a>
@@ -26,7 +25,6 @@
             <a :href="repos[n - 1]"
               ><MemberCard
                 :name="name[n - 1]"
-                :info="info"
                 :color="color[n - 1]"
                 class="memeber-card"
             /></a>
@@ -49,22 +47,20 @@ export default {
       name: [
         "ACM Team",
         "Juliana Rojas",
-        "Nelson Mosquera",
         "Sebastian Guarnizo",
         "Luisa Parra",
         "Luis Vera",
+        "Nelson Mosquera",
       ],
       repos: [
         "http://acm.capitulojaveriano.com/miembros",
         "https://github.com/ayurojasn",
-        "https://github.com/monotera",
         "https://github.com/sebastian0912",
         "https://github.com/parraluisa",
         "https://github.com/Vera-Luis",
+        "https://github.com/monotera",
       ],
-      color: ["#81d8f3", "#81F38C", "#8E66FF", "#FA8888", "#8AEDDB", "#EB801E"],
-      info:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      color: ["#81d8f3", "#8E66FF", "#81F38C", "#FA8888", "#8AEDDB", "#EB801E"],
     };
   },
   created() {
